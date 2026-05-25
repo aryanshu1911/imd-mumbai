@@ -1,0 +1,125 @@
+{
+  "mode": "multi",
+  "lastUpdated": "2026-05-25T11:12:48.740Z",
+  "classifications": {
+    "dual": {
+      "labels": {
+        "above": "H",
+        "below": "L"
+      },
+      "enabled": false,
+      "ocCodes": [],
+      "threshold": 64.5,
+      "heavyCodes": [
+        5,
+        27,
+        33,
+        37,
+        45,
+        56
+      ]
+    },
+    "multi": {
+      "items": [
+        {
+          "id": "VL",
+          "codes": [
+            2,
+            3
+          ],
+          "label": "Very Light",
+          "level": 1,
+          "order": 1,
+          "enabled": true,
+          "thresholdMm": 0.1,
+          "variableName": "VL",
+          "parentCategory": "LOW"
+        },
+        {
+          "id": "L",
+          "codes": [
+            4
+          ],
+          "label": "Light",
+          "level": 2,
+          "order": 2,
+          "enabled": true,
+          "thresholdMm": 2.5,
+          "variableName": "L",
+          "parentCategory": "LOW"
+        },
+        {
+          "id": "M",
+          "codes": [
+            5,
+            6,
+            7
+          ],
+          "label": "Moderate",
+          "level": 3,
+          "order": 3,
+          "enabled": true,
+          "thresholdMm": 15.6,
+          "variableName": "M",
+          "parentCategory": "LOW"
+        },
+        {
+          "id": "H",
+          "codes": [
+            27,
+            33,
+            37,
+            45,
+            56
+          ],
+          "label": "Heavy",
+          "level": 4,
+          "order": 4,
+          "enabled": true,
+          "thresholdMm": 64.5,
+          "variableName": "H",
+          "parentCategory": "HEAVY"
+        },
+        {
+          "id": "VH",
+          "codes": [
+            8,
+            9,
+            10,
+            11,
+            12,
+            25,
+            28,
+            34,
+            39,
+            44
+          ],
+          "label": "Very Heavy",
+          "level": 5,
+          "order": 5,
+          "enabled": true,
+          "thresholdMm": 115.6,
+          "variableName": "VH",
+          "parentCategory": "HEAVY"
+        },
+        {
+          "id": "XH",
+          "codes": [
+            26,
+            29,
+            35,
+            38
+          ],
+          "label": "Extremely Heavy",
+          "level": 6,
+          "order": 6,
+          "enabled": true,
+          "thresholdMm": 204.5,
+          "variableName": "XH",
+          "parentCategory": "HEAVY"
+        }
+      ],
+      "enabled": true
+    }
+  }
+}
